@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/b423b7fe96.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            restraurant website design
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="logo.jpg"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>about us</h1>
+        </section>
+
+        <!--- ABOUT US CONTENT--->
+
+        <section class=" about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1> MOST FAMOUS RESTRAURANT</h1>
+                    <p>
+                        <ul>
+                            ✅ Exquisite Cuisine – Offers a diverse menu with signature dishes and high-quality ingredients.<br><br>
+
+✅ Renowned Chefs – Led by expert chefs known for their culinary artistry and innovation.<br><br>
+
+✅ Unique Ambiance – A well-designed, comfortable, and aesthetically pleasing dining environment.<br><br>
+
+✅ Exceptional Service – Friendly, professional staff ensuring a top-tier dining experience.<br><br>
+
+✅ Rich Legacy – A strong history or reputation, often with awards and recognition.<br><br>
+
+✅ High-Quality Ingredients – Fresh, locally sourced, or imported ingredients for authentic flavors.<br><br>
+
+✅ Innovative Menu – A mix of traditional classics and creative new dishes.<br><br>
+
+✅ Global Recognition – Featured in food guides, Michelin-starred, or popular among food critics.<br><br>
+
+✅ Celebrity & VIP Attraction – Frequently visited by famous personalities and influencers.<br><br>
+
+✅ Memorable Dining Experience – Beyond just food, it offers an unforgettable experience through presentation, storytelling, and hospitality.<br><br>
+                        </ul>
+                    </p>
+                <a href="" class="hero-btn red-btn"> explore know </a>
+            </div>
+            <div class=" about-col">
+                <img src="about.webp">
+
+            </div>
+
+        </section>
+
+        <!-----------menu---------->
+
+        
+        <!----faccilities-------->
+
+        <!--footer -->
+     
+     <section class="footer">
+        <h4> about us</h4>
+        <p>"Experience delicious flavors and warm hospitality at Greate indian kitchen.<br> We serve freshly prepared dishes in a cozy ambiance, perfect for family gatherings,<br> romantic dinners, and casual outings. <br>Join us for a memorable dining experience!"<br></p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            
+                
+            </div>
+                <p> made with <i class="fa fa-heart-o"></i> by gametrending</p>
+
+     </section>
+      
+
+        <!--------javascript for toogle menu--------->
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right="0";
+            }
+            function hidemenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+
+    </body>
+</html>
+
